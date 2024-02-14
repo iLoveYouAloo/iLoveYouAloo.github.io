@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css?family=Carter+One);
+
+.story {
+    margin-top: 0px;
+}
+
+
+
+.nav {
+    position: fixed;
+    z-index: 2;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav__item {
+    width: 12px;
+    height: 12px;
+    display: block;
+    margin: 12px auto;
+    border: solid 2px white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav__item:hover {
+    background-color: white;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    transition-delay: 0.5s;
+}
+
+section:nth-of-type(1) {
+    background: #f8b195;
+    background-image: url('../pics/1/OIG2 (1).jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+section:nth-of-type(2) {
+    background: #f8b195;
+    background-image: url('../pics/2/_6c8ca0e3-c773-42aa-a3b8-0161213afdc4.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+section:nth-of-type(3) {
+    background: #f8b195;
+    background-image: url('../pics/3/_e7168095-c5d4-4490-ae0a-16db5d96a7ed.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+section:nth-of-type(4) {
+    background: #f8b195;
+    background-image: url('../pics/4/_2262619a-b013-4fad-a243-9a12f8aece63.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(5) {
+    background: #f8b195;
+    background-image: url('../pics/5/_7c0dbf52-503f-4789-b500-cc7048bc7383.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(6) {
+    background: #f8b195;
+    background-image: url('../pics/6/_c0ad92be-028f-46be-ac9d-61346b98f5ca.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(7) {
+    background: #f8b195;
+    background-image: url('../pics/7/_8e924c88-c49b-419b-bfa3-d18f101ca6fb.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(8) {
+    background: #f8b195;
+    background-image: url('../pics/8/_bae297c4-809c-46af-9992-29d262f904c7.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(9) {
+    background: #f8b195;
+    background-image: url('../pics/10/_f77ba001-040f-48da-8045-dc73181b69ae.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(10) {
+    background: #f8b195;
+    background-image: url('../pics/11/_08b7cf67-d456-42a7-b404-40d0237fe0f4.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(11) {
+    background: #f8b195;
+    background-image: url('../pics/12/_ef5b1c30-87eb-4d23-9354-c52d852ab4ee.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+
+section:nth-of-type(12) {
+    background: #f8b195;
+    background-image: url('../pics/13/_163b5294-5e4b-476b-b03a-5c702e40f13e.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(13) {
+    background: #f8b195;
+    background-image: url('../pics/14/_c163d09b-7fdc-47bd-b091-c112baac5e22.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(14) {
+    background: #f8b195;
+    background-image: url('../pics/15/_58e01ccc-a80b-4184-b8bb-00f8099c76da.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(15) {
+    background: #f8b195;
+    background-image: url('../pics/16/_c58bbef7-ac2c-4206-a326-bdbeb02097f7.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+section:nth-of-type(16) {
+    background: #f8b195;
+    background-image: url('../pics/17/_fb5b614c-ab4d-46a8-a57e-897e3592fd3d.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(17) {
+    background: #f8b195;
+    background-image: url('../pics/18/_34cadfda-19d8-4fda-afa3-0059ad3dc2f8.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(18) {
+    background: #f8b195;
+    background-image: url('../pics/19/_8fcdb932-b1ec-46e0-8350-c89a35205fe8.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(19) {
+    background: #f8b195;
+    background-image: url('../pics/20/_251de701-173d-49dd-b9b6-ff1b91e9ba00.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(20) {
+    background: #f8b195;
+    background-image: url('../pics/21/_ce44751c-b17f-4afa-aed7-adbdebc9d9fe.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+section:nth-of-type(21) {
+    background: #f8b195;
+    background-image: url('../pics/22/_0f14ea76-16c2-4493-b6dd-bc954a954311.jpeg');
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+    background-color: #1A212C;
+}
+
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    color: white;
+    font: 100% 'Carter One', cursive;
+}
