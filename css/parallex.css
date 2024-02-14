@@ -34,7 +34,7 @@ section {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 100%;
+    top: 3000px;
     right: 0;
     left: 0;
     transition-delay: 0.5s;
