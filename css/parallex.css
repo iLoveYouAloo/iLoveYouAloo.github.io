@@ -226,6 +226,14 @@ section:nth-of-type(21) {
 }
 
 
+section:nth-of-type(22) {
+    background: #151116;
+    background-repeat: no-repeat;
+    backgrond-size: contain;
+    background-position: center;
+}
+
+
 
 
 html,
