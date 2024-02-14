@@ -1,3 +1,7 @@
 .main {
-    background-image: url('../pics/1/OIG3.Bz.jpeg')
+    background-image: url('../pics/1/OIG3.Bz.jpeg');
+}
+
+h1 {
+    background-color: darkred;
 }
