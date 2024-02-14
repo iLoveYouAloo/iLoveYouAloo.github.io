@@ -14,7 +14,7 @@ body {
     height: 100vh;
     background-image: url('../pics/1/OIG3.jpeg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    backgrond-size: contain;
     background-position: center;
 
     /* You can use any color you like */
