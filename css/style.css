@@ -13,6 +13,10 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url('../pics/index.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
     /* You can use any color you like */
     z-index: 9999;
     opacity: 0;
