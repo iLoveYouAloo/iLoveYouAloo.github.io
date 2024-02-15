@@ -37,6 +37,7 @@ function make_story_array() {
 document.getElementById('start-story').onclick = function() {
     playAudio();
     current_slide+=1;
+    document.getElementsByClassName("zoom")[0].style.cssText = "transform: scale(10000); transition: all 3s ease;";
     document.getElementById(current_slide.toString()).style.cssText = ' position:absolute; top:0px ; transition: top 2s ease;';
     story_slides = make_story_array();
 let elements = document.getElementsByClassName("button");
@@ -69,3 +70,15 @@ document.getElementById("up").onclick = function(){
     
 }
 
+
+document.addEventListener("scroll", (event) => {
+  lastKnownScrollPosition = window.scrollY;
+    console.log("hi");
+    current_slide+=1;
+    document.getElementById(current_slide.toString()).style.cssText = ' position:absolute; top:0px ; transition: top 2s ease;';
+});
+
+window.addEventListener('scroll', function() {
+  // Your scroll event handling code here
+  console.log('Scrolled');
+});
