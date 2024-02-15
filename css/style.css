@@ -80,14 +80,16 @@ body {
     position: fixed;
     opacity: 0;
     top: 50%;
+    width: 50px;
+    height: 50px;
     left: 90%;
     /* right: 0; */
     /* transform: translate(0%, -50%); */
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     /* background-color: black; */
-    border: solid black;
-    border-width: 0 8px 8px 0;
-    display: inline-block;
+    /* border: solid black; */
+    /* border-width: 0 8px 8px 0; */
+    /* display: inline-block; */
     padding: 8px;
 }
 
@@ -97,14 +99,21 @@ body {
 
 #down {
     top: 70%;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+    background-color: None;
+    background-image: url("../pics/1/arrow-icon-1182.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
 }
 
 #up {
     top: 40%;
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
+    background-color: None;
+    background-image: url("../pics/1/arrow-icon-1182.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* #one { */
@@ -127,4 +136,15 @@ pre {
     font-weight: bold;
     padding-left: 15px;
     text-shadow: 0 0 8px black;
+}
+
+#outer-up {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: red;
+    top: 40%;
+    left: 90%;
+    display: flex;
 }
